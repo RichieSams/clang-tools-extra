@@ -9,6 +9,7 @@ RUN apt-get update && \
     apt-get update && \
     apt-get install -y \
         # Install Tools
+        cmake \
         clang-tidy-8 \
         clang-format-8 \
     && rm -rf /var/lib/apt/lists/*
