@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM quay.io/richiesams/ubuntu:bionic
 
 RUN apt-get update && \
     apt-get install -y \
