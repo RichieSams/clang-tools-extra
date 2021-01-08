@@ -9,7 +9,6 @@ RUN apt-get update && \
     apt-get update && \
     apt-get install -y \
         # Install Tools
-        cmake \
         build-essential \
         clang-8 \
         clang-tidy-8 \
